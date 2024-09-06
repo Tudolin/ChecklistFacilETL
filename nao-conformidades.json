@@ -1,0 +1,10 @@
+[
+    {
+      "reparo": " Realziar o reparo do item ou notificar um responsável para faze-lo.",
+      "nao conformidades": "Item quebrado"
+    },
+    {
+      "reparo": " Notificar a gerencia para providenciar outro item.",
+      "nao conformidades": "Item faltando"
+    }
+   ]
