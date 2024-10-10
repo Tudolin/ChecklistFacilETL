@@ -51,4 +51,8 @@ Primeiro, criei um tópico utilizando o serviço de mensageria [Pub/Sub](https:/
 
 O funcionamento da pipeline é o seguinte: quando o horário agendado no [Cloud Scheduler](https://cloud.google.com/scheduler?hl=pt-br) for atingido, ele acionará o tópico do [Pub/Sub](https://cloud.google.com/pubsub/docs/overview?hl=pt-br) vinculado. A [Cloud Function](https://cloud.google.com/functions?hl=pt_br), que está configurada para ser disparada pelo tópico do Pub/Sub, será executada. A função, então, processará os dados e os armazenará no bucket configurado.
 
+# Etapas seguintes
 
+Após toda extração tratamento e salvamento dos dados no bucket, podemos realizar o carregamento dos dados no BigQuery e Criar um relatório customizado no Looker Studio para acompanhar as priacipais métricas.
+<img src="img/relatorio1.png" alt="Relatório pagina 1">
+<img src="img/relatorio2.png" alt="Relatório pagina 2">
